@@ -39,7 +39,7 @@ pipeline {
 					bat '"C:\\Program Files\\Git\\mingw64\\bin\\curl.exe" -T ".\\target\\sistema-ventas-spring.war" "http://deployer:orive@localhost:8080/manager/text/deploy?path=/sistema-ventas-spring&update=true"'
                 } 
             }
-        }*/
+        }
 
     }
 }
